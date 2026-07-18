@@ -33,6 +33,15 @@ An automated serial key generation utility that creates secure, cryptographic-st
 * **Token Formatting & String Appending:** Managed sequence loops to dynamically assemble standard authorization blocks interspersed with hyphens.
 * **Modular Input Streams:** Designed validation functions to ensure target iteration counts are positive, avoiding infinite loops during console execution.
 
+### 4. Interactive Math Game
+A dynamic quiz-style math game that challenges users with custom operations and randomized numbers. This application features flexible query logic, comprehensive custom statistics tracking, and dynamic problem generation based on user preferences.
+
+**Key Technical Concepts Implemented:**
+* **Nested Custom Structs:** Created complex structural arrays (stQuizz and stQuestion) to accurately store runtime game states and individual question results.
+* **Algorithmic Math Evaluation:** Built robust evaluation logic parsing multiple distinct standard operations (Addition, Subtraction, Multiplication, Division).
+* **Dynamic Difficulty Adjustments:** Implemented strict range-bounding controls to generate distinct numeric tiers mapped directly to user-selected difficulty ranks.
+* **Scorekeeping & Reporting:** Engineered clear reporting pipelines that accurately summarize right and wrong answer aggregates to compute passing results.
+
 ---
 
 ##  Setup and How To Run
