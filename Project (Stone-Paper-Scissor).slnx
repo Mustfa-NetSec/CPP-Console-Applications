@@ -3,6 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="Cryptographic-Key-Generator/Cryptographic-Key-Generator.vcxproj" Id="efff53dd-2391-4db3-9004-39edb0a4c063" />
   <Project Path="Project (Stone-Paper-Scissor)/Project (Stone-Paper-Scissor).vcxproj" Id="91a54914-03cc-4e12-886d-0ed3af915067" />
   <Project Path="Simple-Text-Encryptor/Simple-Text-Encryptor.vcxproj" Id="589c2b1e-2172-4eab-91fd-23aae3aabb70" />
 </Solution>
