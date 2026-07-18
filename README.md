@@ -24,6 +24,15 @@ A security-focused C++ Console Application that implements text encryption and d
 * **Function Modularity:** Formatted with clear, single-responsibility functions for reading text, encrypting, and decrypting to maintain high code readability.
 * **User Interactive Flow:** Designed a seamless console interface guiding users through sample input, cipher shifts, and automated real-time verification.
 
+### 3. Cryptographic Key Generator
+An automated serial key generation utility that creates secure, cryptographic-style validation keys formatted in blocks (e.g., XXXX-XXXX-XXXX-XXXX). This project emphasizes algorithmic logic, formatting, and randomized token simulation.
+
+**Key Technical Concepts Implemented:**
+* **Custom Character Seeding:** Implemented a robust enCharType abstraction to dynamically switch between character subsets (capital letters, digits, etc.).
+* **Randomization Controls:** Integrated custom bounds-driven random number generation to safely query raw ASCII decimal ranges.
+* **Token Formatting & String Appending:** Managed sequence loops to dynamically assemble standard authorization blocks interspersed with hyphens.
+* **Modular Input Streams:** Designed validation functions to ensure target iteration counts are positive, avoiding infinite loops during console execution.
+
 ---
 
 ##  Setup and How To Run
